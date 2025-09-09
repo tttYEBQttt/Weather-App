@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "WEATHER APP",
+    "slug": "Clima",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/sol.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/sol.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0D1164"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/sol.png",
+        "backgroundColor": "#0D1164",
+        "edgeToEdgeEnabled": true
+      },
+      "web": {
+        "favicon": "./assets/sol.png"
+      },
+      "plugins": [
+        "expo-font"
+      ]
+    },
+    "extra": {
+      "eas": {
+        "projectId": "850768d1-b88c-4c3a-aae0-86f4c291e456"
+      }
+    }
+  }
+}
